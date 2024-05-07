@@ -1,0 +1,60 @@
+.container {
+    position: relative;
+}
+.box1 { 
+    background-color: rgb(80, 5, 116);
+    height: 500px;
+    width: auto;
+    background-size: 1950px;
+    margin-top: -170px;
+}
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    color: white;
+    
+}
+.text-container h1 {
+    font-size: 150px;
+    margin-bottom: -25px;
+    text-shadow: 2px 2px 4px black;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-style: italic;
+}
+.text-container p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.text-container2 p {
+    color: white;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 70px;
+    text-shadow: 2px 2px 4px black;
+    font-family: cursive;
+}
+
+.encadre{
+    background-color: rgb(80, 5, 116);
+    height: 45px;
+    width: 350Px;
+    border-radius: 200px;
+    margin-left: 10px;
+}
+
+.image-style {
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.manga{
+    height: 700px;
+    width: 350px;
+}
