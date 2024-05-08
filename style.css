@@ -82,6 +82,43 @@
 }
 
 
-@media screen {
-    
+@media screen and (max-width:414px){
+
+    .container {
+        position: relative;
+    }
+    .box1 { 
+        background-color: rgb(80, 5, 116);
+        height: 350px;
+        width: ;
+        background-size: 1950px;
+        margin-top: -170px;
+        margin-left: -10px;
+    }
+
+    .text-container h1 {
+        font-size: 150px;
+        margin-bottom: -95px;
+        text-shadow: 2px 2px 4px black;
+        font-family: Comic Sans MS, Comic Sans, cursive;
+        font-style: italic;
+    }
+
+    .image-size{
+        height: 400px;
+        width: 270px;
+        margin: 15px;
+        border-radius: 10px;
+        border: 3px solid black;
+    }
+
+    .image-size2{
+        margin-left: 100px;
+        height: 400px;
+        width: 270px;
+        margin: 15px;
+        border-radius: 10px;
+        border: 3px solid black;
+        text-align: center;
+    }
 }
