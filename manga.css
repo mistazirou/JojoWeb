@@ -1,0 +1,32 @@
+.container4 {
+    position: relative;
+}
+.box4 { 
+    background-color: rgb(80, 5, 116);
+    height: 500px;
+    width: auto;
+    background-size: 1950px;
+    margin-top: -170px;
+}
+
+.text-container4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    color: white;
+    
+}
+.text-container4 h1 {
+    font-size: 150px;
+    margin-bottom: -25px;
+    text-shadow: 2px 2px 4px black;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-style: italic;
+}
+.text-container4 p {
+    font-size: 180px;
+    line-height: 1.6;
+}
