@@ -9,23 +9,44 @@
 </div>
 </head>
 <body class="body">
+   
+    <a href="index.html">
+        <div class="image-container">
+            <img src="img/JOJOOO.webp" alt="image de test" class="image">
+        </div>
+    </a>
 
     <div class="container">
         <div class="box1">
-            <div class="logo"></div>
-        </div>
     </div>
     
     <div class="container">
+    </div> 
+
+    <form id="searchForm">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Entrez le titre du manga"
+        />
+      </form>
+
+    <script>
+        const icon = Document.querySelector('.icon');
+        const search = Document.querySelector('.search');
+        icon.onclick = function(){
+            search.classList.toggle('active')
+        }
+    </script>
     </div>
 
     <section class="Présentation">
-        <h2>Jojo's Bizarre Aventure</h2>
-        <p> JoJo scan est un site de scan animé sur le grand ANIME .....</p>
+        <h2 style="display: flex;justify-content: center;margin-bottom: 36Px;margin-top: 51px;">Jojo's Bizarre Aventure</h2>
+        <p style="text-align: center;">Jojo Scan est un site dédié aux passionnés de manga<br> et d'anime, offrant une vaste collection<br> de scans de haute qualité. Découvrez, lisez et appréciez<br> vos séries préférées, et rejoignez une communauté<br> de lecteurs partageant la même passion.</p>
     </section>
 
     <div class="Parties1">
-        <h3 class="PartieTitre">Liste Des Parties:</h3>
+        <h3 class="PartieTitre" style="margin-left: 30px;background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgb(138 58 157) 50%, rgb(131 58 180) 100%);margin-top: 54px;width: 342px;text-align: center;">Liste Des Parties:</h3>
     <a href="JojoPart/PhanomBlood.html">
         <img src="img/jojo-1.jpg" class="image-size">
     </a>
@@ -51,14 +72,14 @@
         <img src="img/jojo-8.jpg" class="image-size">
         </a>
     </div>
+    </div>
+
+    </body>
 
     <footer>
-
-    </footer>
-    <div class="PiedDePage">
-
-    </div>
+        <div class="PiedDePage">
+        </div>
+</footer>
 
     </div>
-</body>
 </html>
